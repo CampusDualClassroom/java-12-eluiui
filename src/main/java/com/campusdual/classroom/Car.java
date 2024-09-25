@@ -19,7 +19,6 @@ public class Car {
         }
     }
 
-    // Método para apagar el coche
     public void stop() {
         if (speedometer == 0) {
             isRunning = false;
@@ -51,7 +50,7 @@ public class Car {
         }
     }
 
-    // Frenar el coche
+
     public void brake() {
         if (speedometer > MIN_SPEED) {
             speedometer -= 10;
